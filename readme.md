@@ -70,7 +70,7 @@ After the add product form is filled, the user will click the Save button which 
    ```javascript
    //
    // Called when add product form is submitted
-   let addOrUpdateProduct = async () => {
+   async function addOrUpdateProduct() {
    
      // url for api call
      const url = `${api.BASE_URL}/product`
@@ -113,7 +113,7 @@ After the add product form is filled, the user will click the Save button which 
    ```javascript
    // Get values from product form
    // Create new Product and return
-   let getProductForm = () => {
+   function getProductForm() {
      // new Product object constructed from the form values
      // Note: These should be validated!!
      return new Product(
