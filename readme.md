@@ -129,7 +129,7 @@ After the add product form is filled, the user will click the Save button which 
    ```
 
 4. The new Product object is converted to JSON and sent in the request body. The **```fetchInit()```** function, defined in **fetchAPIHelper.js** is used to generate a request object in the correct format allowing the **Product** object to be sent as **JSON** in the **body** of  a **POST** request:
-      <img src="/home/elee-tudublin/sswd-labs/products-db-part4/SQLite-Client-WebApp-2021.part4-Add-Update-Delete.start/media/fetchInit.png" alt="fetchInit" style="zoom:70%;" />
+      <img src="./media/fetchInit.png" alt="fetchInit" style="zoom:70%;" />
 
 5. **```api.getDataAsync(url, request)```** is then used to call the api at the endpoint specified by **url**.
 
